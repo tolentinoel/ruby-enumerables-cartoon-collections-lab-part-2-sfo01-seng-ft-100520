@@ -28,5 +28,5 @@ def find_valid_calls(planeteer_calls)
    n = 0
    result = planeteer_calls.find {|item| item.include?(valid_calls[n])}
   print result
-end
+
 end
