@@ -17,7 +17,7 @@ def long_planeteer_calls(planeteer_calls)
   # Return the boolean result of this check
   planeteer_calls.any? { |word| word.length >= 4 }
   puts "HEWOOOOOO"
-  end
+  
 end
 
 def find_valid_calls(planeteer_calls)
