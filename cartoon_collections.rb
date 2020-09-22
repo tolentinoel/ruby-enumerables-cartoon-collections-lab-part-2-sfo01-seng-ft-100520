@@ -22,6 +22,7 @@ def find_valid_calls(planeteer_calls)
     a = planeteer_calls[n] 
     b = valid_calls[n]
     a == b
+    n += 1
     p b
   end
    
