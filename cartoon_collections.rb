@@ -27,6 +27,6 @@ def find_valid_calls(planeteer_calls)
     call = planeteer_calls[n] 
     n += 1
     valid_calls.find(call)
-    puts call
+    puts "YEHAWWWWWWWWW"
   end
 end
