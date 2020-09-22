@@ -18,7 +18,6 @@ def long_planeteer_calls(planeteer_calls)
   planeteer_calls.count |word| 
     word.length > 4 
     return true
-    end
 end
 
 def find_valid_calls(planeteer_calls)
