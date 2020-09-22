@@ -24,5 +24,5 @@ def find_valid_calls(planeteer_calls)
     a == b
    
   end
-   puts b
+   return b
 end
