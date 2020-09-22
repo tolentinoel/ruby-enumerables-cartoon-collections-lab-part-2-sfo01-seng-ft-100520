@@ -16,14 +16,16 @@ end
 
 def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
-  n = 0
+  # n = 0
   
-  if n < planeteer_calls.length
-    a = planeteer_calls[n] 
-    b = valid_calls[n]
-    a == b
-    n += 1
-    p b
-  end
-   
+  # if n < planeteer_calls.length
+  #   a = planeteer_calls[n] 
+  #   b = valid_calls[n]
+  #   a == b
+  #   n += 1
+  #   p b
+  # end
+   n = 0
+   result = planeteer_calls.find {|item| item.include?(valid_calls[n])}
+  print result
 end
