@@ -28,4 +28,5 @@ def find_valid_calls(planeteer_calls)
     n += 1
     valid_calls.find(call)
     puts call
+  end
 end
