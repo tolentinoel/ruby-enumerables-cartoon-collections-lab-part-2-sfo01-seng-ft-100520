@@ -28,6 +28,4 @@ def find_valid_calls(planeteer_calls)
     n += 1
   end
   valid_calls.find(call)
- 
- end
 end
