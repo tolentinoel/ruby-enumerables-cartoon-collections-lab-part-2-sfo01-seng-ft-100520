@@ -21,7 +21,7 @@ def find_valid_calls(planeteer_calls)
   if n < planeteer_calls.length
     call = planeteer_calls[n] 
     n += 1
-    puts valid_calls.find(call)
+     valid_calls.find(n)
   end
   
 end
