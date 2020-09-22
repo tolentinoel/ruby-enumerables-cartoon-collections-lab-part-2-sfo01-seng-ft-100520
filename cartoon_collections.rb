@@ -25,4 +25,5 @@ def find_valid_calls(planeteer_calls)
  valid_calls.each do |s|  
    planeteer_calls.find(s)
    return s
+ end
 end
