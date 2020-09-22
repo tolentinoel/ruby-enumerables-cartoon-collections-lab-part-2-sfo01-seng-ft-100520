@@ -19,7 +19,8 @@ def long_planeteer_calls(planeteer_calls)
     if word.length > 4 
       puts true
     else
-  
+      puts false
+    end
 end
 
 def find_valid_calls(planeteer_calls)
