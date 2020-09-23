@@ -29,7 +29,7 @@ def find_valid_calls(planeteer_calls)
    n = 0
   planeteer_calls.each do |calls|
   if calls.include? valid_calls[n]
-    result = shark
+    result = calls
     break
     return result
 end
