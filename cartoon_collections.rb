@@ -25,8 +25,13 @@ def find_valid_calls(planeteer_calls)
   #   n += 1
   #   p b
   # end
+   result = nil
    n = 0
-   result = planeteer_calls.find {|item| item.include?(valid_calls[n])}
-  print result
+  planeteer_calls.each do |calls|
+  if calls.include? valid_calls[n]
+    result = shark
+    break
+    n += 1
+  end
 
 end
