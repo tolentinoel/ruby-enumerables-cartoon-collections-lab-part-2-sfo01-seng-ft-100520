@@ -21,6 +21,6 @@ def find_valid_calls(planeteer_calls)
   valid_calls.each do |i|
     planeteer_calls.any? 
     puts "HEWLLLLLOOO"
-    
+  end
    
 end
