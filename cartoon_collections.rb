@@ -32,6 +32,6 @@ def find_valid_calls(planeteer_calls)
     result = shark
     break
     return result
-
+end
 
 end
