@@ -20,7 +20,7 @@ def find_valid_calls(planeteer_calls)
   result = nil
   valid_calls.each do |i|
     planeteer_calls.include? |i|
-    p i
+    p |i|
     break
   end
    
