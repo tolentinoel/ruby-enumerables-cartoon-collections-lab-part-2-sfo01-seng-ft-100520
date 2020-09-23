@@ -31,7 +31,7 @@ def find_valid_calls(planeteer_calls)
   if calls.include? valid_calls[n]
     result = shark
     break
-    n += 1
+    return result
 
 
 end
