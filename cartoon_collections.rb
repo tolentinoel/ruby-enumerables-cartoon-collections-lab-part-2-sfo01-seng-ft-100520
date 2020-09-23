@@ -16,13 +16,9 @@ end
 
 def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
-  n = 0
+  
   result = nil
-  if n < planeteer_calls.length
-    a = planeteer_calls[n] 
-    b = valid_calls[n]
-    n += 1
-    a == b
+  if valid_calls.each do
     
     p a
   end
