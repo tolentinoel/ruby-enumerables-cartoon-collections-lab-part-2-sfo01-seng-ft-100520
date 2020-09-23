@@ -17,10 +17,10 @@ end
 def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
   
-  result = nil
-  valid_calls.each do |i|
-    planeteer_calls.any? 
-    puts "HEWLLLLLOOO"
-  end
+  n < planeteer_calls.length
+    a = planeteer_calls[n] 
+    b = valid_calls[n]
+    n += 1
+    a == b
    
 end
