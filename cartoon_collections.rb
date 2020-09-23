@@ -18,7 +18,8 @@ def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
   
   result = nil
-  if valid_calls.each do
+  valid_calls.each do |i|
+    
     
     p a
   end
