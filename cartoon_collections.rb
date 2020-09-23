@@ -33,5 +33,5 @@ def find_valid_calls(planeteer_calls)
     break
     return result
 end
-
+end 
 end
